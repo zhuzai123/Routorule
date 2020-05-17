@@ -58,11 +58,7 @@ if __name__ == '__main__':
                 math.log(256 - int(net_mask[2]), 2) + \
                 math.log(256 - int(net_mask[3]), 2)))
 
-            try:
                 tmp_file.write(ip_dst[0] + '.' + ip_dst[1] + '.' + ip_dst[2] + '.' + ip_dst[3] + \
                     '/' + prefix + '\n')
-
-            except:
-                pass
 
     tmp_file.close()
