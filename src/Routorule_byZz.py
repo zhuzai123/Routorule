@@ -39,6 +39,7 @@ if __name__ == '__main__':
             route_match_obj = re.match('.*?(\d\S+).*?(\S+).*?(\S+).*?(\S+).*?(\S+)', line)
             if route_match_obj == None:
                 continue
+
             try:
                 ip_dst = route_match_obj.group(1).split('.')
                 net_mask = route_match_obj.group(2).split('.')
