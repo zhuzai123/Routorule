@@ -5,6 +5,7 @@ import os
 import re
 import math
 
+
 ip_ver = 'IPv4'
 start_stop_key = '=='
 
