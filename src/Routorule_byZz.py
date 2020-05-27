@@ -54,6 +54,7 @@ if __name__ == '__main__':
             if (ip_dst[0] == '0' or
                 ip_dst[0] == '10' or
                 (ip_dst[0] == '172') & (16 <= int(ip_dst[1]) < 32) or
+                (ip_dst[0] == '169') & (ip_dst[1] == '254') or
                 (ip_dst[0] == '192') & (ip_dst[1] == '168') or
                 (224 <= int(ip_dst[0]))):
                 continue
