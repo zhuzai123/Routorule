@@ -6,8 +6,12 @@ import re
 import math
 
 
+# Config Start
+
 ip_ver = 'IPv4'
 start_stop_key = '=='
+
+# Config End
 
 if __name__ == '__main__':
 
